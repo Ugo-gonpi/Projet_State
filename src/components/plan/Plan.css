@@ -40,18 +40,17 @@
 .individualCard {
     width: 200px;
     height: 130px;
-    border: 1px solid #d3d3d3;
+    border: 2px solid #d3d3d3;
     border-radius: 10px;
     margin-bottom: 40px;
 }
 
 .individualCard:hover {
-    border: 1px solid #9774c5;
-    background-color: #d1d1d1;
+    border: 2px solid #9774c5;
 }
 
 .individualCard:focus {
-    border: 1px solid #9774c5;
+    border: 2px solid #9774c5;
     background-color: #d1d1d1;
 }
 

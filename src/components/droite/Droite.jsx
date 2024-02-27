@@ -9,6 +9,7 @@ import Thanks from '../thanks/Thanks';
 const Droite = (props) => {
 
     const [page, setPage] = useState(1);
+
     const [procede, setProcede] = useState(false);
 
     useEffect(() => {
@@ -41,11 +42,11 @@ const Droite = (props) => {
             <div className='buttons'>
 
                 {
-                    page == 1 || page == 5 ? "" : <button className='back' onClick={()=> {setPage(page - 1)}}>GO BACK</button>
+                    page == 1 || page == 5 ? "" : <button className='back' onClick={()=> {setPage(page - 1)}}>Go Back</button>
                 }
 
                 {
-                    page == 5 ? "" : <button className={`next ${procede == false ? "unclickable" : ""}`} onClick={()=> {setPage(page + 1)}}>NEXT</button>
+                    page == 5 ? "" : <button className={`next ${procede == false ? "unclickable" : ""}`} onClick={()=> {setPage(page + 1)}}>Next</button>
                 }
 
             </div>

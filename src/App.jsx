@@ -7,7 +7,6 @@ function App() {
 
   const [pageOn, setPageOn] = useState(1);
   
-
   return (
     <div className='App'>
       <div className='contain'>

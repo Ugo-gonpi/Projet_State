@@ -46,6 +46,7 @@
 
 .adds:focus {
     border: 2px solid #7d53b8;
+    background-color: #d1d1d1;
 }
 
 .adds:hover {
@@ -85,18 +86,25 @@
     color: #1a0050;
 }
 
-.adds .check input:checked {
-    background-color: #9975c5;
+input[type='checkbox']:checked {
+    background-color: #7d53b8;
 }
 
-.adds .check {
+input[type='checkbox']:checked:after {
+    content: '\2713';
+    color:white;
+}
+
+input[type='checkbox']{
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 24px !important;
+    height: 24px !important;
+    appearance: none;
+    border-radius: 5px;
     margin-left: 20px;
-    width: 15px;
-    height: 15px;
-    border: 1px solid black;
-}
-
-.adds .check:focus {
-    border: 1px solid #9975c5;
-    
+    border: 1px solid #979797;
+    box-shadow: none;
+    font-size: 1em;
 }
