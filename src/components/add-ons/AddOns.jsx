@@ -26,9 +26,11 @@ const AddOns = () => {
                     </div>
 
                    <div className='addedPrice'>
+
                         <p>
-                            +$10/yr
+                            +$1/mo
                         </p>
+                        
                    </div>
 
                 </div>
@@ -44,7 +46,7 @@ const AddOns = () => {
 
                     <div className='addedPrice'>
                         <p>
-                            +$20/yr
+                            +$2/mo
                         </p>
                     </div>
 
@@ -61,7 +63,7 @@ const AddOns = () => {
 
                     <div className='addedPrice'>
                         <p>
-                            +$20/yr
+                            +$2/mo
                         </p>
                     </div>
                     

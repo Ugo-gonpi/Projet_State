@@ -8,7 +8,7 @@ function App() {
   const [pageOn, setPageOn] = useState(1);
   
   return (
-    <div className='App'>
+    <div className='App'> 
       <div className='contain'>
 
         <Gauche pageOn={pageOn} setPageOn={setPageOn}/>

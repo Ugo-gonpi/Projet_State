@@ -51,6 +51,7 @@ const Plan = () => {
                             }
 
                         </div>
+                        
                     </div>
 
                     <div className='individualCard' tabIndex={"0"}>

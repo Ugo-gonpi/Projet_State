@@ -52,7 +52,7 @@
 }
 
 .contenuSummary hr {
-    width: 90%;
+    width: 85%;
 }
 
 .extraAdds {
@@ -68,13 +68,15 @@
 
 .extraAdds span {
     padding-right: 30px;
+    color: #001357;
+    font-weight: bold;
 }
 
 .total {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 8g0px;
+    margin-top: 80px;
 }
 
 .total p {
