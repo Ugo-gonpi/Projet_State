@@ -1,0 +1,31 @@
+.mainThanks {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+    background-image: url(./../../assets/icon-thank-you.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+.thanksText {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.thanksText h1 {
+    color: #021644;
+}
+
+.thanksText p {
+    color: #b3b3b3;
+}

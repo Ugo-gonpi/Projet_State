@@ -1,0 +1,102 @@
+.mainAdd {
+    width: 400px;
+    height: 400px;
+}
+
+.titreAdd {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titreAdd h1 {
+    color: #000f31;
+    margin: 0;
+}
+
+.titreAdd p {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.contenuAdd {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.adds {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #d7d7d7;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.adds:focus {
+    border: 2px solid #7d53b8;
+}
+
+.adds:hover {
+    border: 2px solid #7d53b8;
+}
+
+.textAdds {
+    width: 80%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.textAdds .addsTitle {
+    margin: 0;
+    margin-bottom: 5px;
+    color: #233447;
+    font-size: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+}
+
+.textAdds .explanation {
+    margin: 0;
+    font-size: 13px;
+    color: #979797;
+}
+
+.addedPrice {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addedPrice p {
+    color: #1a0050;
+}
+
+.adds .check input:checked {
+    background-color: #9975c5;
+}
+
+.adds .check {
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+.adds .check:focus {
+    border: 1px solid #9975c5;
+    
+}

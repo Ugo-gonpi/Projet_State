@@ -1,0 +1,29 @@
+.mainSummary {
+    width: 400px;
+    height: 400px;
+}
+
+.titreSummary {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titreSummary h1 {
+    color: #000f31;
+    margin: 0;
+}
+
+.titreSummary p {
+    margin: 0;
+    padding-top: 5px;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.contenuSummary {
+    width: 100%;
+    height: 300px;
+}

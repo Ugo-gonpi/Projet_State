@@ -1,0 +1,95 @@
+.mainInfo {
+    width: 400px;
+    height: 400px;
+}
+
+.titre {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.titre h1 {
+    color: #000f31;
+    margin: 0;
+}
+
+.titre p {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 13px;
+    color: #b3b3b3;
+}
+
+.contenu {
+    width: 100%;
+    height: 300px;
+}
+
+.name p {
+    color: #000f31;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.name input {
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding-left: 10px;
+    font-family: Font;
+    font-size: 14px;
+}
+
+.name input:focus {
+    outline: 2px solid #8a648b;
+}
+
+.mail p {
+    color: #000f31;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.mail input {
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding-left: 10px;
+    font-family: Font;
+    font-size: 14px;
+}
+
+.mail input:focus {
+    outline: 2px solid #8a648b;
+}
+
+.phone p {
+    color: #000f31;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.phone input {
+    width: 370px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    padding-left: 10px;
+    font-family: Font;
+    font-size: 14px;
+}
+
+.phone input:focus {
+    outline: 2px solid #8a648b;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin:  0;
+}
